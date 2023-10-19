@@ -9,6 +9,9 @@ Bundler.require(*Rails.groups)
 module RailsFriendApp
   class Application < Rails::Application
     config.load_defaults 6.1
-
   end
+  config.generators do |g|
+    g.assets false
+    g.helper false
+    end
 end
