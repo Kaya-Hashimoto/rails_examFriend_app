@@ -14,7 +14,6 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'bcrypt'
 gem 'carrierwave'
 gem 'mini_magick'
-gem 'pry-rails'
 gem 'net-smtp'
 gem 'net-imap'
 gem 'net-pop'
@@ -28,6 +27,9 @@ group :development do
   gem 'rack-mini-profiler', '~> 2.0'
   gem 'listen', '~> 3.3'
   gem 'spring'
+  gem 'pry-rails'
+  gem "better_errors"
+  gem "binding_of_caller"
 end
 
 group :test do
